@@ -1,0 +1,28 @@
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/worldcup2022api?useSSL=false
+#    username: root
+#    password: comunicacao
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#    spring.jpa.database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+spring:
+  datasource:
+    url: jdbc:h2:mem:alura-forum
+    username: sa
+    password: pass
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+
+        
+
+
