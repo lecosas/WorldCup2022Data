@@ -7,7 +7,7 @@ import br.com.lecosas.WorldCup2022Data.model.Team;
 import lombok.Getter;
 
 @Getter
-public class TeamCreateDto {
+public class TeamFormDto {
 
     @NotEmpty
     @NotNull
